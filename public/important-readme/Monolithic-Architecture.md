@@ -3,7 +3,7 @@
 
 ### Monolithic architecture refers to a traditional software design approach where an entire application is built as a single, indivisible unit. In a monolithic architecture, all components and modules of the application are tightly integrated and run as a single process. This contrasts with other architectural styles, such as microservices or service-oriented architecture (SOA), where an application is composed of loosely coupled, independent services
 
-<img src="../images/Monolithic-Architecture.png" alt="">
+<img src="../images/Monolithic-Architecture.png" alt="Monolithic-Architecture">
 
 
 ## Key characteristics of monolithic architecture include:
