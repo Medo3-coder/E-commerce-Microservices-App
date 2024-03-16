@@ -6,7 +6,7 @@
 
 ## synchronous communication 
 
-<img src="../images/Synchronous-communication.png" alt="benefits">
+<img src="../public/images/Synchronous-communication.png" alt="benefits">
 
 **HTTP/HTTPS:** Microservices can communicate over the standard HTTP/HTTPS protocols using RESTful APIs. This approach is simple, widely adopted, and suitable for communication between services that are not tightly coupled. It allows for stateless interactions and is ideal for public-facing APIs.
 
@@ -14,7 +14,7 @@
 
 ## Asynchronous communication 
 
-<img src="../images/Asynchronous-communication.png" alt="benefits">
+<img src="../public/images/Asynchronous-communication.png" alt="benefits">
 
  **Messaging Queues:** Microservices can exchange messages through messaging queues like RabbitMQ, Apache Kafka, or Amazon SQS. This asynchronous communication pattern decouples services and ensures reliable message delivery. It's suitable for scenarios where loose coupling and high scalability are required.
 

@@ -23,17 +23,17 @@
 
 # Microservices-Architecture-benefits
 
- <img src="../images/Microservices-Architecture-benefits.png" alt="benefits">
+ <img src="../public/images/Microservices-Architecture-benefits.png" alt="benefits">
 
 
- <img src="../images/Microservices-Architecture-benefits-2.png" alt="benefits">
+ <img src="../public/images/Microservices-Architecture-benefits-2.png" alt="benefits">
 
 
 # Challenges of Microservices Architecture
 
 
- <img src="../images/challenges-1.png" alt="challenges">
+ <img src="../public/images/challenges-1.png" alt="challenges">
 
 
-  <img src="../images/challenges-2.png" alt="challenges">
+  <img src="../public/images/challenges-2.png" alt="challenges">
 
