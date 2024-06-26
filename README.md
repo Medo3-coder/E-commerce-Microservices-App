@@ -5,10 +5,13 @@
 
 * A Free Marketplace where sellers can craete gigs and buyers can purchase gigs or custom gigis.
 
+### Project Architecture 
+
+<img src="/public/images/Project-Architecture.png">
+
 ### subdomains
  
 <img src="/public/images/subdomains.png">
-
 
 ### functional requirements : describe what system should do
 
