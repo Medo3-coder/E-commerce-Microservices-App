@@ -10,7 +10,13 @@
 <img src="/public/images/subdomains.png">
 
 
-
-### functional requirements 
+### functional requirements : describe what system should do
 
 <img src="/public/images/functional-requirements.png">
+
+
+###  Nonfunctional Requirements
+
+<img src="/public/images/Nonfunctional-requirements.png">
+
+
