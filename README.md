@@ -25,6 +25,10 @@
 
 <img src="/public/images/Design-decision.png">
 
+### Inter Process Communication
+
+<img src="/public/images/inter-process-communication.png">
+
 
 
 
