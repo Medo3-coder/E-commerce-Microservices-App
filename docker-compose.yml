@@ -48,7 +48,18 @@ services:
       - '5432:5432'   
       # - 8080:8080  
     volumes:
-      - ./docker-volumes/postgres:/var/lib/postgresql
+      - ./docker-volumes/postgres:/var/lib/postgresql/data
+
+  rabbitmq:
+    container_name: rabbitmq_container
+    image: rabbitmq:4.0-rc-management-alpine⁠ 
+    restart: always
+    ports: 
+      # AMQP protocol port -> this use to access from our application
+      - "5672:5672"
+      # Management UI port -> this use to access dashboard
+      - "15672:15672"    # also i can use 8080 port
+        
 
             
 
