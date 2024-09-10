@@ -60,8 +60,6 @@ services:
       # Management UI port -> this use to access dashboard
       - "15672:15672"    # also i can use 8080 port
 
-# Elasticsearch is a distributed, RESTful search and analytics engine capable of solving a growing number of use cases. 
-# As the heart of the Elastic Stack, it centrally stores your data so you can discover the expected and uncover the unexpected.
 # databse : to save ur data u want to visualize
   elasticsearch:                
     container_name: elasticsearch_container
@@ -85,11 +83,27 @@ services:
     networks:
       - elastic
 
+#kibana is frontend 
+  kibana:
+    container_name: kibana_container 
+    image: docker.elastic.co/kibana/kibana:8.15.1
+    restart: always
+    environment:
+      - ELASTICSEARCH__HOSTS=["http://"]
+    ports: 
+      - 5601:5601
+    networks:
+      - elastic
+    volumes:
+      - ./kibana.yml:/usr/share/kibana/config/kibana.yml:ro
+    depends_on:  
+      - elasticsearch
+ 
 networks:
   elastic:
     name: elastic
 
-#kibana is frontend 
+
 
 
 
